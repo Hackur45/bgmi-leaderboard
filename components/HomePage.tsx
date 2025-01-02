@@ -17,10 +17,10 @@ export default function HomePage() {
         <div>
           <h2 className="text-3xl font-bold mb-4">Welcome to Compex Nagpur</h2>
           <p className="mb-4">
-            For over three decades, Compex Nagpur has been at the forefront of showcasing cutting-edge technology and innovation. Now in its 31st edition, we're proud to present one of our major highlights: the BGMI Tournament!
+            For over three decades, Compex Nagpur has been at the forefront of showcasing cutting-edge technology and innovation. Now in its 31st edition, we&apos;re proud to present one of our major highlights: the BGMI Tournament!
           </p>
           <p className="mb-4">
-            Experience the thrill of real-time action, compete for exciting prizes, and prove your skills in one of India's most popular mobile games. Whether you're a seasoned pro or a passionate newcomer, the BGMI Tournament at Compex Nagpur is your chance to shine!
+            Experience the thrill of real-time action, compete for exciting prizes, and prove your skills in one of India&apos;s most popular mobile games. Whether you&apos;re a seasoned pro or a passionate newcomer, the BGMI Tournament at Compex Nagpur is your chance to shine!
           </p>
           <motion.button
             className="btn glow-effect"
@@ -40,4 +40,3 @@ export default function HomePage() {
     </motion.section>
   )
 }
-

@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { motion } from 'framer-motion'
 
 type ClassicMatch = {
@@ -28,11 +28,9 @@ const calculateTotalScore = (match: ClassicMatch) => {
 }
 
 export default function ClassicLeaderboard() {
-  const [data, setData] = useState(initialData)
-
   const sortedData = useMemo(() => {
-    return [...data].sort((a, b) => calculateTotalScore(b) - calculateTotalScore(a))
-  }, [data])
+    return [...initialData].sort((a, b) => calculateTotalScore(b) - calculateTotalScore(a))
+  }, [])
 
   return (
     <motion.div
@@ -79,4 +77,3 @@ export default function ClassicLeaderboard() {
     </motion.div>
   )
 }
-

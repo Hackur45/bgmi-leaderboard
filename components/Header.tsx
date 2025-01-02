@@ -10,7 +10,7 @@ export default function Header() {
       transition={{ duration: 0.5 }}
     >
       <div className="flex justify-center items-center space-x-4">
-        <Image src="/placeholder.svg" alt="Compex Nagpur Logo" width={50} height={50} />
+        <Image src="https://via.placeholder.com/50" alt="Compex Nagpur Logo" width={50} height={50} />
         <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
           Compex Nagpur BGMI Tournament
         </h1>

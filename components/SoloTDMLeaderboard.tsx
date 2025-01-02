@@ -18,7 +18,7 @@ const initialData: SoloTDMPlayer[] = [
 ]
 
 export default function SoloTDMLeaderboard() {
-  const [data, setData] = useState(initialData)
+  const [data] = useState(initialData) // Temporarily remove setData to resolve the linting error.
 
   const sortedData = useMemo(() => {
     return [...data].sort((a, b) => b.eliminations - a.eliminations)
@@ -65,4 +65,3 @@ export default function SoloTDMLeaderboard() {
     </motion.div>
   )
 }
-
