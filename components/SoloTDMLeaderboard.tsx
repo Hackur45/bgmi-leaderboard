@@ -49,7 +49,7 @@ export default function SoloTDMLeaderboard() {
                 key={player.playerHandle}
                 className="hover:bg-white/10 transition-colors duration-200"
                 initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1,opacity: 1, y: 0 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
               >
                 <td className="p-2">{player.playerHandle}</td>
