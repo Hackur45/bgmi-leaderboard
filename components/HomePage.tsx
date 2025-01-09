@@ -5,7 +5,11 @@ import image2 from '../public/images/bgmi5.jpg'
 import image3 from '../public/images/bgmi3.jpg'
 import image4 from '../public/images/bgmi7.jpg'
 
+
 export default function HomePage() {
+  const handleRegister = () => {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSce01IMPcWQqnMHD4QMr0PT3zkdt3p-n-Y9oqzE_1YtGKLJrA/viewform?usp=header', '_blank');
+  };
   return (
     <motion.section
       className="glass-effect p-6 mt-8"
@@ -15,7 +19,7 @@ export default function HomePage() {
     >
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h2 className="text-3xl font-bold mb-4">Welcome to Compex Nagpur</h2>
+          <h2 className="text-3xl font-bold mb-4">Welcome to Comp-Ex Nagpur</h2>
           <p className="mb-4">
             For over three decades, Compex Nagpur has been at the forefront of showcasing cutting-edge technology and innovation. Now in its 31st edition, we&apos;re proud to present one of our major highlights: the BGMI Tournament!
           </p>
@@ -26,6 +30,7 @@ export default function HomePage() {
             className="btn glow-effect"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={handleRegister}
           >
             Register Now
           </motion.button>
