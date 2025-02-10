@@ -15,7 +15,7 @@ I couldn’t build the backend, so I’m looking for contributors who can help i
 
 ## Installation
 ```sh
-git clone https://github.com/your-username/bgmi-leaderboard.git
+git clone https://github.com/Hackur45/bgmi-leaderboard.git
 cd bgmi-leaderboard
 npm install
 npm start
